@@ -1,5 +1,5 @@
 const github = require('octonode')
-const token = 'be74f0ecba2ab1a1fae6a9db1e73ccf3e5347d38'
+const token = require('../config/token')
 const client = github.client(token)
 const db = require('./db')
 const { error } = require('./log')
